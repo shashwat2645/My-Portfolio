@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        h3 {
+            color: rgb(5, 1, 1);
+        }
+
+        body {
+            background-color: rgb(59, 54, 54);
+        }
+    </style>
+</head>
+
+<body>
+    <ul id="navbar">
+        <li><a href="C:\Users\Gagan Patel\Desktop\HTML Projcts\Portfolio\index.html" class="btn">Home</a></li>
+        <li><a href="C:\Users\Gagan Patel\Desktop\HTML Projcts\Portfolio\education.html" class="btn">Education</a></li>
+        <li><a href="C:\Users\Gagan Patel\Desktop\HTML Projcts\Portfolio\projects.html" class="btn">Projects</a></li>
+        <li><a href="#" class="btn active">Contact Me</a></li>
+        <li style="float: right;" class="btn"><a
+                href="C:\Users\Gagan Patel\Desktop\HTML Projcts\Portfolio\about.html">About</a></li>
+    </ul><br><br>
+
+    <main>
+        <center>
+            <form style="color: aliceblue;" method=post action="mailto:singhshashwat133@gmail.com">
+                <h2>
+                    <center>Contact</center>
+                </h2>
+                <label for="name">Name*</label><br>
+                <input name="name" id="name" type="text" required maxlength="30" size="40"
+                    style="background-color: rgb(141, 137, 137); color: rgb(82, 78, 78);"
+                    placeholder="Your Name..."><br><br><br>
+                <label for="email">Email Address*</label><br>
+                <input id="email" name="email" type="email" required size="40"
+                    style="background-color: rgb(141, 137, 137); color: rgb(82, 78, 78);"
+                    placeholder="Your Email Address..."><br><br><br>
+                <label for="msg">Your message*</label><br>
+                <textarea id="msg" name="msg" rows="5" required cols="30"
+                    style="background-color: rgb(141, 137, 137); color: rgb(82, 78, 78);" placeholder="Your message..."></textarea><br>
+                
+                <input type="reset">
+                <input type="submit" value="Submit">
+            </form>
+        </center>
+    </main>
+</body>
+
+</html>
